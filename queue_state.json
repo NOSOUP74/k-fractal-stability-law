@@ -1,0 +1,54 @@
+{
+  "queue_id": "kappa_fractal_stability_work",
+  "updated_at": "2026-07-17T20:00:00Z",
+  "active_item": 1,
+  "items": [
+    {
+      "id": 1,
+      "title": "Repro mini-package",
+      "status": "ACTIVE",
+      "deliverables": [
+        "kappa module",
+        "sample data",
+        "reproduce_mini.py",
+        "REPRO.md",
+        "requirements.txt"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sensitivity table L1 only",
+      "status": "TODO"
+    },
+    {
+      "id": 3,
+      "title": "Pre-register next tests (new family + null)",
+      "status": "TODO"
+    },
+    {
+      "id": 4,
+      "title": "Run pre-registered battery",
+      "status": "TODO"
+    },
+    {
+      "id": 5,
+      "title": "Coordinate-free defect trial on L1",
+      "status": "TODO"
+    },
+    {
+      "id": 6,
+      "title": "Repo hygiene: e-lock siblings",
+      "status": "TODO"
+    },
+    {
+      "id": 7,
+      "title": "Public surface freeze / claim line",
+      "status": "TODO"
+    },
+    {
+      "id": 8,
+      "title": "JoeysAI κ quarantine check",
+      "status": "TODO"
+    }
+  ]
+}

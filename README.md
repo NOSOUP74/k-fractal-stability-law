@@ -231,12 +231,18 @@ until independent replications expand the supported family set.
 
 ---
 
+## Work queue
+
+See **[QUEUE.md](QUEUE.md)** — ordered tasks (repro → sensitivity → falsification → hygiene).  
+Current focus: **#1 Repro mini-package**.
+
 ## Changelog
 
 | Date | Note |
 |------|------|
 | 2025–2026 | Initial public stub |
 | 2026-07 | Physics/math refresh: definitions, battery criteria, multi-system results, scope limits |
+| 2026-07 | Work queue added (QUEUE.md); #1 repro package next |
 
 ---
 
