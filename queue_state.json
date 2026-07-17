@@ -1,24 +1,18 @@
 {
   "queue_id": "kappa_fractal_stability_work",
-  "updated_at": "2026-07-17T20:00:00Z",
-  "active_item": 1,
+  "updated_at": "2026-07-17T20:30:00Z",
+  "active_item": 2,
   "items": [
     {
       "id": 1,
       "title": "Repro mini-package",
-      "status": "ACTIVE",
-      "deliverables": [
-        "kappa module",
-        "sample data",
-        "reproduce_mini.py",
-        "REPRO.md",
-        "requirements.txt"
-      ]
+      "status": "DONE"
     },
     {
       "id": 2,
       "title": "Sensitivity table L1 only",
-      "status": "TODO"
+      "status": "ACTIVE",
+      "notes": "Start with synthetic sweep; real L1 when public sample available"
     },
     {
       "id": 3,

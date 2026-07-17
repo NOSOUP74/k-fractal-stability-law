@@ -23,8 +23,8 @@ Ordered list. Work **top → bottom**. Mark status as we go.
 
 | # | Item | Status | Notes |
 |---|------|--------|-------|
-| **1** | **Repro mini-package** — public-runnable κ_C path + tiny sample (or synthetic) data | `ACTIVE` | Highest leverage; no private paths |
-| **2** | **Sensitivity table (L1 only)** — vary \(p\), \(k\), windows; report \(\bar\kappa_C\), CI, \(n\) | `TODO` | After #1 can run |
+| **1** | **Repro mini-package** — public-runnable κ_C path + tiny sample (or synthetic) data | `DONE` | `kappa/`, `data/sample/`, `reproduce_mini.py` |
+| **2** | **Sensitivity table (L1 only)** — vary \(p\), \(k\), windows; report \(\bar\kappa_C\), CI, \(n\) | `ACTIVE` | Next |
 | **3** | **Pre-register next tests** — freeze criteria for (a) one new family, (b) one null | `TODO` | Before looking at results |
 | **4** | **Run pre-registered battery** — record pass/fail only against frozen rules | `TODO` | Data outranks theory |
 | **5** | **Coordinate-free defect trial** — 1–2 alternate \(\mathcal{D}\) on L1 only | `TODO` | Check effect isn’t pure coordinates |
@@ -48,12 +48,28 @@ Ordered list. Work **top → bottom**. Mark status as we go.
 
 **Done when:**
 
-- [ ] Clone + `pip install -r requirements.txt` + run script succeeds on a clean machine
-- [ ] No absolute personal filesystem paths in code
-- [ ] README links to REPRO.md
-- [ ] Hypothesis disclaimer remains
+- [x] Clone + `pip install -r requirements.txt` + run script succeeds on a clean machine
+- [x] No absolute personal filesystem paths in code
+- [x] README links to REPRO.md
+- [x] Hypothesis disclaimer remains
 
 **Out of scope for #1:** full 3-system battery, Horizons downloads, Kaggle bulk.
+
+---
+
+## Active item detail — #2 Sensitivity table
+
+**Goal:** On the synthetic (and optionally any public sample), sweep:
+
+| Axis | Values (suggested) |
+|------|---------------------|
+| close-approach percentile \(p\) | 10, 15, 25 |
+| kNN \(k\) | 3, 5, 8 |
+| entropy window | 12, 24, 40 |
+
+Report table: \(\bar\kappa_C\), CI_lo, CI_hi, \(n\), primary_pass.
+
+**Deliverable:** `scripts/sensitivity_mini.py` + `data/sample/sensitivity_table.json` (+ short section in REPRO.md).
 
 ---
 
@@ -71,6 +87,7 @@ Ordered list. Work **top → bottom**. Mark status as we go.
 | Date | Event |
 |------|--------|
 | 2026-07-17 | Queue created; #1 ACTIVE |
+| 2026-07-17 | #1 DONE (repro mini-package); #2 ACTIVE |
 
 ---
 

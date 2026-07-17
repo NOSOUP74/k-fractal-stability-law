@@ -1,0 +1,19 @@
+{
+  "kappa_C_point": 0.7151431856757797,
+  "kappa_C_boot_mean": 0.7105787063535167,
+  "kappa_C_ci_lo": 0.6082769711514247,
+  "kappa_C_ci_hi": 0.7967429006893187,
+  "n_close": 75,
+  "n_mask": 75,
+  "kappa_eff": 0.49135976215042365,
+  "primary_pass": true,
+  "alternate_pass": false,
+  "theta_C": 0.35,
+  "ref_1_minus_1e": 0.6321205588285577,
+  "info_series": "entropy_level",
+  "defect_series": "path_irregularity",
+  "percentile": 15.0,
+  "k": 5,
+  "entropy_window": 24,
+  "defect_window": 9
+}

@@ -234,7 +234,9 @@ until independent replications expand the supported family set.
 ## Work queue
 
 See **[QUEUE.md](QUEUE.md)** — ordered tasks (repro → sensitivity → falsification → hygiene).  
-Current focus: **#1 Repro mini-package**.
+**#1 Repro mini-package: DONE.** Current focus: **#2 Sensitivity table**.
+
+Quick repro: see **[REPRO.md](REPRO.md)** (`python scripts/reproduce_mini.py`).
 
 ## Changelog
 
